@@ -7,17 +7,17 @@
     tools:context=".MainActivity">
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/beltekImgView"
         android:layout_width="180dp"
         android:layout_height="166dp"
         android:layout_marginTop="25dp"
-        app:layout_constraintEnd_toStartOf="@+id/imageView2"
+        app:layout_constraintEnd_toStartOf="@+id/gaziImgView"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/beltek" />
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/gaziImgView"
         android:layout_width="180dp"
         android:layout_height="166dp"
         android:layout_marginTop="25dp"
@@ -38,7 +38,7 @@
         android:textStyle="italic"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+        app:layout_constraintTop_toBottomOf="@+id/beltekImgView" />
 
     <EditText
         android:id="@+id/passwordTxt"
