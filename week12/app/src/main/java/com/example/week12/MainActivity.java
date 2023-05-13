@@ -2,6 +2,7 @@ package com.example.week12;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.graphics.Color;
 import android.os.Bundle;
 
 public class MainActivity extends AppCompatActivity {
